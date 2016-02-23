@@ -16,3 +16,6 @@ UPC-A, EAN-8, EAN-13, Code 39, Code 128, ITF, Codabar, Plessey, MSI, QR Code, PD
 
 ## Changes in this repo
 DPD, a courier in the UK, require their barcodes to switch from subset B to C at specific points, so I've added an encoding hint to manually trigger subset switches
+
+I have also removed a lot of the projects from the solution file, because they wouldn't load for me (due to my OS version and toolset)
+
